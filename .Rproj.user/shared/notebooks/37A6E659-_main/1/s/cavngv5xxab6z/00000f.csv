@@ -1,0 +1,7 @@
+"0","dir.create('./Result/01-readme')"
+"2","Warning: './Result/01-readme' already exists"
+"0","library(ggsci)"
+"0","library(scales)"
+"0","mypal <- c(""#B71375"",""#FC4F00"",""#F79540"")"
+"0","png(paste0(""./Result/01-readme/3_color.png""),width = 4, height = 4,res = 1200,units = ""in"")"
+"0","show_col(mypal, ncol = 3)"

@@ -1,0 +1,2 @@
+"0","library(knitr)"
+"0","knitr::include_graphics(""3_color.png"")"

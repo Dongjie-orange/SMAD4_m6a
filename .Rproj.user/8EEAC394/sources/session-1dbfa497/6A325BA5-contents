@@ -1,0 +1,45 @@
+rm(list = ls())
+library(ggsci)
+library(scales)
+
+#NPG  nature
+mypal <- pal_npg("nrc", alpha = 0.9)(10)
+mypal
+#"#E64B35E5" "#4DBBD5E5" "#00A087E5" "#3C5488E5" "#F39B7FE5" "#8491B4E5" "#91D1C2E5" "#DC0000E5"
+#"#7E6148E5" "#B09C85E5"
+show_col(mypal)
+
+#Lancet
+mypal <- pal_lancet('lanonc',alpha = 0.8)(10)
+mypal
+show_col(mypal)
+
+#AAAS science
+mypal <- 	pal_aaas('default',alpha = 0.8)(10)
+mypal
+show_col(mypal)
+
+#NEJM
+mypal <- 	pal_nejm('default',alpha = 0.9)(10)
+mypal
+show_col(mypal)
+
+#JAMA
+mypal <- 	pal_jama('default',alpha = 0.9)(10)
+mypal
+show_col(mypal)
+
+#JCO
+mypal <- 	pal_jco('default',alpha = 0.9)(10)
+mypal
+show_col(mypal)
+
+#生成渐变色
+cols <- c('#73BCD5','#deebf7')
+pal <- colorRampPalette(cols)
+pal(20)
+
+
+
+
+
