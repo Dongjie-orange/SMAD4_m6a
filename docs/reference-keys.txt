@@ -1,6 +1,6 @@
-fig:nice-fig
-tab:nice-tab
 about
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables
+fig:nice-fig
+tab:nice-tab
