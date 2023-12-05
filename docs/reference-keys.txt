@@ -10,3 +10,9 @@ tcga_smad4_mutation_exp_m6a_gene_boxplot_2
 tcga-paad-dataset-option-3
 tcga_smad4_mutation_exp_m6a_boxplot_3
 tcga_smad4_mutation_exp_m6a_gene_boxplot_3
+cptac-pdac-dataset
+cptac_smad4_mutation_exp_m6a_boxplot
+cptac_smad4_mutation_exp_m6a_gene_boxplot
+rj-dataset
+rj_smad4_mutation_exp_m6a_boxplot
+rj_smad4_mutation_exp_m6a_gene_boxplot
