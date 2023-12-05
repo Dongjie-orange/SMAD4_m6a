@@ -86,7 +86,9 @@ The HTML output format for this example is bookdown::gitbook,</p>" />
 <li class="chapter" data-level="2" data-path="data-processing.html"><a href="data-processing.html"><i class="fa fa-check"></i><b>2</b> Data processing</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="data-processing.html"><a href="data-processing.html#m6a-regulators"><i class="fa fa-check"></i><b>2.1</b> m6a regulators</a></li>
-<li class="chapter" data-level="2.2" data-path="data-processing.html"><a href="data-processing.html#tcga-paad-dataset"><i class="fa fa-check"></i><b>2.2</b> TCGA-PAAD dataset</a></li>
+<li class="chapter" data-level="2.2" data-path="data-processing.html"><a href="data-processing.html#tcga-paad-dataset-option-1"><i class="fa fa-check"></i><b>2.2</b> TCGA-PAAD dataset option 1</a></li>
+<li class="chapter" data-level="2.3" data-path="data-processing.html"><a href="data-processing.html#tcga-paad-dataset-option-2"><i class="fa fa-check"></i><b>2.3</b> TCGA-PAAD dataset option 2</a></li>
+<li class="chapter" data-level="2.4" data-path="data-processing.html"><a href="data-processing.html#tcga-paad-dataset-option-3"><i class="fa fa-check"></i><b>2.4</b> TCGA-PAAD dataset option 3</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -116,14 +118,49 @@ The HTML output format for this example is bookdown::gitbook,</p>" />
 <li>30 m6a regulators (DOI: 10.1186/s12943-021-01408-5)</li>
 </ul>
 </div>
-<div id="tcga-paad-dataset" class="section level2 hasAnchor" number="2.2">
-<h2><span class="header-section-number">2.2</span> TCGA-PAAD dataset<a href="data-processing.html#tcga-paad-dataset" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="tcga-paad-dataset-option-1" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> TCGA-PAAD dataset option 1<a href="data-processing.html#tcga-paad-dataset-option-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>所有regulators</li>
+<li>SMAD4表达cutoff 50%</li>
+</ul>
 <div id="tcga_smad4_mutation_exp_m6a_boxplot" class="section level4 hasAnchor" number="2.2.0.1">
 <h4><span class="header-section-number">2.2.0.1</span> TCGA_SMAD4_mutation_exp_m6a_boxplot<a href="data-processing.html#tcga_smad4_mutation_exp_m6a_boxplot" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><img src="Result/02-data_processing/TCGA_SMAD4_mutation_exp_m6a_boxplot.png" width="80%" height="80%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="tcga_smad4_mutation_exp_m6a_gene_boxplot" class="section level4 hasAnchor" number="2.2.0.2">
 <h4><span class="header-section-number">2.2.0.2</span> TCGA_SMAD4_mutation_exp_m6a_gene_boxplot<a href="data-processing.html#tcga_smad4_mutation_exp_m6a_gene_boxplot" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="Result/02-data_processing/TCGA_SMAD4_mutation_exp_m6a_gene_boxplot.png" width="100%" height="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="tcga-paad-dataset-option-2" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> TCGA-PAAD dataset option 2<a href="data-processing.html#tcga-paad-dataset-option-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>所有regulators</li>
+<li>SMAD4表达cutoff 25% (30%不用看了趋势肯定是一致的)</li>
+</ul>
+<div id="tcga_smad4_mutation_exp_m6a_boxplot_2" class="section level4 hasAnchor" number="2.3.0.1">
+<h4><span class="header-section-number">2.3.0.1</span> TCGA_SMAD4_mutation_exp_m6a_boxplot_2<a href="data-processing.html#tcga_smad4_mutation_exp_m6a_boxplot_2" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="Result/02-data_processing/TCGA_SMAD4_mutation_exp_m6a_boxplot_2.png" width="40%" height="40%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="tcga_smad4_mutation_exp_m6a_gene_boxplot_2" class="section level4 hasAnchor" number="2.3.0.2">
+<h4><span class="header-section-number">2.3.0.2</span> TCGA_SMAD4_mutation_exp_m6a_gene_boxplot_2<a href="data-processing.html#tcga_smad4_mutation_exp_m6a_gene_boxplot_2" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="Result/02-data_processing/TCGA_SMAD4_mutation_exp_m6a_gene_boxplot_2.png" width="100%" height="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="tcga-paad-dataset-option-3" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> TCGA-PAAD dataset option 3<a href="data-processing.html#tcga-paad-dataset-option-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>仅包含11个writers</li>
+<li>SMAD4表达cutoff 50%</li>
+</ul>
+<div id="tcga_smad4_mutation_exp_m6a_boxplot_3" class="section level4 hasAnchor" number="2.4.0.1">
+<h4><span class="header-section-number">2.4.0.1</span> TCGA_SMAD4_mutation_exp_m6a_boxplot_3<a href="data-processing.html#tcga_smad4_mutation_exp_m6a_boxplot_3" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="Result/02-data_processing/TCGA_SMAD4_mutation_exp_m6a_boxplot_3.png" width="40%" height="40%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="tcga_smad4_mutation_exp_m6a_gene_boxplot_3" class="section level4 hasAnchor" number="2.4.0.2">
+<h4><span class="header-section-number">2.4.0.2</span> TCGA_SMAD4_mutation_exp_m6a_gene_boxplot_3<a href="data-processing.html#tcga_smad4_mutation_exp_m6a_gene_boxplot_3" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="Result/02-data_processing/TCGA_SMAD4_mutation_exp_m6a_gene_boxplot_3.png" width="100%" height="100%" style="display: block; margin: auto;" /></p>
 
 </div>
 </div>

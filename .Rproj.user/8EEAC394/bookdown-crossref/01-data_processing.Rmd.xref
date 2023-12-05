@@ -1,6 +1,12 @@
 h1:data-processing Data processing
 h2:m6a-regulators m6a regulators
-h2:tcga-paad-dataset TCGA-PAAD dataset
+h2:tcga-paad-dataset-option-1 TCGA-PAAD dataset option 1
 h4:tcga_smad4_mutation_exp_m6a_boxplot TCGA_SMAD4_mutation_exp_m6a_boxplot
 h4:tcga_smad4_mutation_exp_m6a_gene_boxplot TCGA_SMAD4_mutation_exp_m6a_gene_boxplot
+h2:tcga-paad-dataset-option-2 TCGA-PAAD dataset option 2
+h4:tcga_smad4_mutation_exp_m6a_boxplot_2 TCGA_SMAD4_mutation_exp_m6a_boxplot_2
+h4:tcga_smad4_mutation_exp_m6a_gene_boxplot_2 TCGA_SMAD4_mutation_exp_m6a_gene_boxplot_2
+h2:tcga-paad-dataset-option-3 TCGA-PAAD dataset option 3
+h4:tcga_smad4_mutation_exp_m6a_boxplot_3 TCGA_SMAD4_mutation_exp_m6a_boxplot_3
+h4:tcga_smad4_mutation_exp_m6a_gene_boxplot_3 TCGA_SMAD4_mutation_exp_m6a_gene_boxplot_3
 
