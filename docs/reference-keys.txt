@@ -4,3 +4,8 @@ chapters-and-sub-chapters
 captioned-figures-and-tables
 fig:nice-fig
 tab:nice-tab
+data-processing
+tcga-paad-dataset
+tcga_smad4_mutation_exp_m6a_boxplot
+tcga_smad4_mutation_exp_m6a_boxplot-1
+m6a-regulators
