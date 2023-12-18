@@ -54,9 +54,6 @@ dev.off()
   
 ```
 
-```{r,  echo=FALSE , out.width = "400px" , fig.align = 'center',  fig.cap = '' }
-library(knitr)
-knitr::include_graphics("./Result/01-readme/3_color.png")
-```
+
 
 

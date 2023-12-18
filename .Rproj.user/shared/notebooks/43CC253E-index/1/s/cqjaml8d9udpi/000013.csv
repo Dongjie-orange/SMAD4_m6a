@@ -1,7 +1,0 @@
-"0","# dir.create('./Result/01-readme')"
-"0",""
-"0","library(ggsci)"
-"0","library(scales)"
-"0","mypal <- c(""#B71375"",""#F79540"",""#FC4F00"")"
-"0","png(""./Result/01-readme/3_color.png"",width = 4, height = 4,res = 1200,units = ""in"")"
-"0","show_col(mypal, ncol = 3)"

@@ -15,4 +15,8 @@ h4:cptac_smad4_mutation_exp_m6a_gene_boxplot CPTAC_SMAD4_mutation_exp_m6a_gene_b
 h2:rj-dataset RJ dataset
 h4:rj_smad4_mutation_exp_m6a_boxplot RJ_SMAD4_mutation_exp_m6a_boxplot
 h4:rj_smad4_mutation_exp_m6a_gene_boxplot RJ_SMAD4_mutation_exp_m6a_gene_boxplot
+h2:rna-modifications RNA modifications
+h3:tcga-paad TCGA-PAAD
+h3:cptac-pdac CPTAC-PDAC
+h3:rj-cohort RJ-cohort
 
